@@ -10,7 +10,7 @@ import org.springframework.test.annotation.DirtiesContext;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
 @DirtiesContext
