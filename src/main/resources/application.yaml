@@ -9,5 +9,5 @@ spring:
       group-id: group1
       auto-offset-reset: latest
     producer:
-      key-serializer: org.apache.kafka.common.serialization.LongDeserializer
-      value-serializer: org.apache.kafka.common.serialization.StringDeserializer
+      key-serializer: org.apache.kafka.common.serialization.LongSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer

@@ -13,7 +13,7 @@ public class KafkaProducerService {
 
     private final KafkaTemplate<Long, String> kafkaTemplate;
 
-    @Scheduled(fixedDelay = 3000)
+    @Scheduled(fixedDelay = 3000L)
     public void sendMessage() {
         kafkaTemplate.send("demo-topic", 1L, "Some message");
     }
